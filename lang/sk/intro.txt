@@ -1,0 +1,11 @@
+====== Konfigurácia presmerovaní ======
+
+Tu môžete nastaviť presmerovania pre vašu wiki. Môžete presmerovať na externé weby alebo stránky vo wiki. Všetky zadané názvy stránok musia byť absolútne a očistené (bez špeciálnych znakov, malé písmená, plné menné priestory). Hash kotvy musí byť escapovaný pomocou \.
+
+Použite nasledujúci formát:
+
+<code>
+nazov_stranky    interna_stranka
+ina_stranka      http://example.com
+nejaka_stranka   interna_stranka\#nadpis
+</code>
